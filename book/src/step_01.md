@@ -70,28 +70,34 @@ run `pixi run s01`
 
 A failed test will show
 ```bash
-✗ dataclass is not imported from dataclasses
-✗ GPT2Config does not have the @dataclass decorator
-✗ vocab_size is incorrect: expected match with Hugging Face model configuration, got None
-✗ n_positions is incorrect: expected match with Hugging Face model configuration, got None
-✗ n_embd is incorrect: expected match with Hugging Face model configuration, got None
-✗ n_layer is incorrect: expected match with Hugging Face model configuration, got None
-✗ n_head is incorrect: expected match with Hugging Face model configuration, got None
-✗ n_inner is incorrect: expected match with Hugging Face model configuration, got None
-✗ layer_norm_epsilon is incorrect: expected match with Hugging Face model configuration, got None
+Running tests for Step 01: Create Model Configuration...
+
+Results:
+❌ dataclass is not imported from dataclasses
+❌ GPT2Config does not have the @dataclass decorator
+❌ vocab_size is incorrect: expected match with Hugging Face model configuration, got None
+❌ n_positions is incorrect: expected match with Hugging Face model configuration, got None
+❌ n_embd is incorrect: expected match with Hugging Face model configuration, got None
+❌ n_layer is incorrect: expected match with Hugging Face model configuration, got None
+❌ n_head is incorrect: expected match with Hugging Face model configuration, got None
+❌ n_inner is incorrect: expected match with Hugging Face model configuration, got None
+❌ layer_norm_epsilon is incorrect: expected match with Hugging Face model configuration, got None
 ```
 
 A sucessful test will show
 ```bash
-✓ dataclass is correctly imported from dataclasses
-✓ GPT2Config has the @dataclass decorator
-✓ vocab_size is correct
-✓ n_positions is correct
-✓ n_embd is correct
-✓ n_layer is correct
-✓ n_head is correct
-✓ n_inner is correct
-✓ layer_norm_epsilon is correct
+Running tests for Step 01: Create Model Configuration...
+
+Results:
+✅ dataclass is correctly imported from dataclasses
+✅ GPT2Config has the @dataclass decorator
+✅ vocab_size is correct
+✅ n_positions is correct
+✅ n_embd is correct
+✅ n_layer is correct
+✅ n_head is correct
+✅ n_inner is correct
+✅ layer_norm_epsilon is correct
 ```
 
 **Reference**: `puzzles/config.py`
