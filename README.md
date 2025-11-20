@@ -22,7 +22,7 @@ Build GPT-2 from scratch using Modular's MAX platform. This hands-on tutorial te
 
 ```bash
 # Clone or navigate to this directory
-cd max-gpt2
+cd max-llm-book
 
 # Install dependencies with pixi
 pixi install
@@ -63,7 +63,7 @@ Each step includes:
 ## Project structure
 
 ```
-max-gpt2/
+max-llm-book/
 ├── book/                  # mdBook tutorial documentation
 │   └── src/
 │       ├── introduction.md
@@ -115,12 +115,14 @@ pixi run test-all
 ### Understanding test output
 
 **Failed test** (skeleton code):
+
 ```
 ❌ Embedding is not imported from max.nn.module_v3
    Hint: Add 'from max.nn.module_v3 import Embedding, Module'
 ```
 
 **Passed test** (completed implementation):
+
 ```
 ✅ Embedding is correctly imported from max.nn.module_v3
 ✅ GPT2Embeddings class exists
@@ -142,12 +144,15 @@ This demonstrates how all components fit together in production.
 ## Common issues
 
 ### Import errors
+
 ```python
 ModuleNotFoundError: No module named 'max'
 ```
+
 **Solution**: Run `pixi install` to install MAX and dependencies.
 
 ### Test failures
+
 If tests fail unexpectedly, ensure you're in the correct directory and have completed the step's TODOs.
 
 ### Device compatibility

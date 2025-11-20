@@ -11,7 +11,7 @@ are subject to change. Share feedback on the
 
 Transformer models power today's most impactful AI applications, from language models like ChatGPT to code generation tools like GitHub Copilot. Maybe you've been asked to adapt one of these models for your team, or you want to understand what's actually happening when you call an inference API. Either way, building a transformer from scratch is one of the best ways to truly understand how they work.
 
-This guide walks you through implementing GPT-2 using Modular's MAX framework [experimental API](https://docs.modular.com/max/api/python/experimental/). You'll build each component yourself: embeddings, attention mechanisms, and feed-forward layers. You'll see how they fit together into a complete language model by completing the sequential coding challenges in the tutorial [GitHub repository](https://github.com/modular/max-gpt2).
+This guide walks you through implementing GPT-2 using Modular's MAX framework [experimental API](https://docs.modular.com/max/api/python/experimental/). You'll build each component yourself: embeddings, attention mechanisms, and feed-forward layers. You'll see how they fit together into a complete language model by completing the sequential coding challenges in the tutorial [GitHub repository](https://github.com/modular/max-llm-book).
 
 <div class="note">
 

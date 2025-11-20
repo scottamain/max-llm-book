@@ -4,11 +4,11 @@ Each step includes automated tests that verify your implementation before moving
 forward. This immediate feedback helps you catch issues early and build
 confidence.
 
-You'll first need to clone [the GitHub repository](https://github.com/modular/max-gpt2) and navigate to the repository:
+You'll first need to clone [the GitHub repository](https://github.com/modular/max-llm-book) and navigate to the repository:
 
 ```sh
-git clone https://github.com/modular/max-gpt2
-cd max-gpt2
+git clone https://github.com/modular/max-llm-book
+cd max-llm-book
 ```
 
 Then download and install [pixi](https://pixi.sh/dev/):
@@ -43,7 +43,7 @@ When your implementation is
 correct, you'll see:
 
 ```output
-✨ Pixi task (s01): python tests/test.step_01.py                                                                         
+✨ Pixi task (s01): python tests/test.step_01.py
 Running tests for Step 01: Create Model Configuration...
 
 Results:
